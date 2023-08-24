@@ -39,7 +39,7 @@ const handleEvent = (type, data) => {
     comment.content = content;
   }
 }
-
+ 
 app.post('/events', (req, res) => {
   const { type, data } = req.body;
 
@@ -67,4 +67,4 @@ app.listen(4002, async () => {
  * 
  * We should be storing the events along side the actual posts/comments data, 
  * 
-**/
+**/ 
