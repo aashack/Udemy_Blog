@@ -1,0 +1,8 @@
+apiVersion: apps/v1
+kind: Pod
+metadata:
+  name: posts-depl
+spec:
+  containers:
+    - name: posts
+      image: theshack/posts:0.01
